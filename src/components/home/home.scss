@@ -1,0 +1,34 @@
+
+.home {
+  max-width: 500px;
+
+            .logo-text {
+                text-align: center;
+               font-size: 18px;
+            letter-spacing: 0.2em;
+            animation: matrixEffect 5s infinite alternate;
+        }
+        
+        @keyframes matrixEffect {
+            from { transform: translateY(-10px); opacity: 0.8;}
+            to   { transform: translateY(10px); opacity: 1;}
+        }
+
+}
+
+.network {
+  color: green;
+  font-size:12px;
+  text-align: center;
+  padding: 5px;
+}
+
+#ton-connect-button {
+
+    button {
+      background-color: green !important;
+      cursor: pointer;
+      
+    }
+
+}

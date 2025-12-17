@@ -1,0 +1,25 @@
+.lifegame {
+
+    max-width: 500px;
+    padding: 10px;
+
+    .grid-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 20px;
+        width:350px;
+        height: 350px;
+
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 0.5em 1em;
+        cursor: pointer;
+        margin: 10px;
+    }
+
+}

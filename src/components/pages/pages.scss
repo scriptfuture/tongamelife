@@ -1,0 +1,15 @@
+.pages {
+    padding: 14px;
+    max-width: 500px;
+
+    h2 {
+        font-size: 16px;
+        margin-top:15px;
+    }
+
+    &__top-text {
+        font-size:22px;
+        border:1px solid grey;
+        padding:10px;
+    }
+}
